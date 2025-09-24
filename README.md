@@ -11,7 +11,7 @@
 Мы объединяем два источника (для покрытия и коротких, и более длинных пользовательских текстов):
 
 1. Фрагменты датасета соревнования **[Avito ML Cup 2025 — Поиск дублей](https://ods.ai/competitions/avitotechmlchallenge2025_2)** - поля `base_title`, `cand_title`, `base_description`, `cand_description`.
-2. Новости **WMT News Crawl** (русский), источник: `https://data.statmt.org/news-crawl/ru/` - из них извлекаются короткие предложения, чтобы модель адекватно работала на небольших строках.
+2. Новости **[WMT News Crawl](https://data.statmt.org/news-crawl/ru/)** на русском - из них извлекаются короткие предложения, чтобы модель адекватно работала на небольших строках.
 
 
 ## Содержимое репозитория
@@ -22,8 +22,8 @@
 ├── requirements.txt
 ├── missing_whitespaces.ipynb      # основной ноутбук (train + inference)
 ├── dataset_1937770_3.txt          # тестовый датасет для сабмита (id,text_no_spaces)
-├── sub_infer.csv                  # результат инференса
-└── restored.txt                   # пример восстановленных строк (id,текст_с_пробелами)
+├── submission.csv                  # результат инференса
+└── restored_texts.txt                   # пример восстановленных строк (id,текст_с_пробелами)
 ```
 
 ## Как запустить
