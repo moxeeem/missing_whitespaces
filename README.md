@@ -22,8 +22,8 @@
 ├── requirements.txt
 ├── missing_whitespaces.ipynb      # основной ноутбук (train + inference)
 ├── dataset_1937770_3.txt          # тестовый датасет для сабмита (id,text_no_spaces)
-├── submission.csv                  # результат инференса
-└── restored_texts.txt                   # пример восстановленных строк (id,текст_с_пробелами)
+├── submission.csv                 # результат инференса
+└── restored_texts.txt             # пример восстановленных строк (id,текст_с_пробелами)
 ```
 
 ## Как запустить
