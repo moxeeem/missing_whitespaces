@@ -48,7 +48,7 @@ pip install -r requirements.txt
 
 #### Как не обучать заново, а сразу использовать модель
 
-Если вы не хотите обучать модель, а сразу использовать уже обученную, скачайте [архив с чекпоинтом](https://drive.google.com/file/) и распакуйте его в папку `experiments/eo_byte_finetune`, чтобы получился файл `experiments/eo_byte_finetune/checkpoint_best.pt`.
+Если вы не хотите обучать модель, а сразу использовать уже обученную, скачайте [архив с чекпоинтом](https://drive.google.com/drive/folders/1HrPQOcORhsCyqjTVmX6IY-46V89-KqpC?usp=sharing) и распакуйте его в папку `experiments/eo_byte_finetune`, чтобы получился файл `experiments/eo_byte_finetune/checkpoint_best.pt`.
 
 Потом запустите раздел инференса в ноутбуке (последний раздел), он самодостаточный и не зависит от предыдущих ячеек.
 
