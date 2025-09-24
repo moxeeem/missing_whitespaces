@@ -91,3 +91,11 @@ pip install -r requirements.txt
 
   * **GPU**: NVIDIA RTX A4000 (16 ГБ VRAM)
   * **RAM**: 47 ГБ
+
+------
+
+## Контакты
+
+* **Максим Иванов**  
+  Email: moxeeeem@gmail.com
+  Telegram: [@fwznn_ql1d_8](https://t.me/fwznn_ql1d_8)
